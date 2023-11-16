@@ -1,0 +1,71 @@
+.todo {
+  width: 600px;
+  border: 2px solid #6565ecac;
+  background-color: rgb(238, 250, 238);
+  border-radius: 5px;
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 5px;
+}
+.todoH1 {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: space-around;
+}
+.todoInput {
+  padding: 5px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid rgba(17, 122, 255, 1);
+  outline: none;
+  width: 320px;
+  font-size: 1.5rem;
+}
+.todoButton {
+  height: 50px;
+  border: none;
+  border-radius: 15%;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(17, 122, 255, 1) 0%,
+    rgba(20, 159, 255, 1) 100%
+  );
+  color: white;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+.seperator {
+  height: 2px;
+  width: 80%;
+  align-self: center;
+  background-color: black;
+}
+.complete {
+  text-decoration: line-through;
+}
+.removeDiv {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url(../../assets/img/deleteIcon.jpg);
+  background-size: contain;
+  margin: 10px;
+}
+.itemDiv {
+  display: flex;
+  width: 100%;
+}
+.todoRow {
+  /* margin: 4px auto; */
+  border: 2px solid #6565ecac;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 5px;
+  width: 95%;
+}
