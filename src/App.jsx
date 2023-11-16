@@ -15,7 +15,6 @@ function App() {
         >
           {click === "text" ? "ON" : "OFF"}
         </button>
-
         <h1 className={click === "text" ? "text" : "textNone"}>Homework</h1>
       </div>
       <Todo />
