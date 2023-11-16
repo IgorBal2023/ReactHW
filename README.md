@@ -1,8 +1,6 @@
 Timer
 ===
-Create Timer component
-
-
+Create Timer component  
 Create timer based on setTimeout  
 Render time in dom
 
