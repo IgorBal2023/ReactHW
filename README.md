@@ -1,12 +1,16 @@
-Collapse
+Timer
 ===
-Create button component.  
-On btn click show text.  
-On btn second click hide text.  
-(Optional) add animation. 
+Create Timer component  
+Create timer based on setTimeout  
+Render time in dom
 
-Todo list
+Fetch
 ===
-Create input, button and list component.  
-Store input value in state.  
-On btn click add value from state to todo list.
+Fetch posts from  
+'https://dummyjson.com/posts'  
+Render posts in dom
+
+Geolocation
+===
+Get users location on load  
+Render those values

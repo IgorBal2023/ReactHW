@@ -3,7 +3,6 @@
   line-height: 1.5;
   font-weight: 400;
 
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -12,8 +11,9 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   min-width: 320px;
   min-height: 100vh;
+  justify-content: center;
 }

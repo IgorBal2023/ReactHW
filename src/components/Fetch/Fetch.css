@@ -1,0 +1,24 @@
+.products {
+  border-left: 1px solid rgb(118, 117, 116);
+  border-right: 1px solid rgb(118, 117, 116);
+  padding: 15px 30px;
+}
+.productLength {
+  font-size: 2rem;
+  color: rgb(134, 134, 238);
+  font-weight: bold;
+  padding-left: 2rem;
+}
+.productCategory {
+  font-style: italic;
+}
+.productBrand {
+  font-weight: bold;
+  margin-left: 3rem;
+  font-style: italic;
+}
+.productTitle {
+  font-weight: bold;
+  color: rgb(84, 82, 82);
+  margin-left: 2rem;
+}
