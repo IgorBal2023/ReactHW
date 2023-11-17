@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./timer.css";
-import TimeNow from "./TimeNow";
+import TimeNow from "./timeNow";
 
 function Timer() {
   const [time, setTime] = useState(0);
@@ -10,7 +10,7 @@ function Timer() {
       setTime((prevTime) => prevTime + 1);
     }, 1000);
 
-    return () => clearInterval(countTime);
+    return () => clearTimeout(countTime);
   }, [time]);
 
   const timeSeconds = time % 60;

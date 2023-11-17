@@ -1,7 +1,7 @@
 import "./App.css";
-import Products from "./components/Fetch/FetchData";
-import Timer from "./components/Timer/Timer";
-import UseGeolocation from "./components/UseGeolocation/UseGeolocation";
+import Products from "./components/fetch/fetchData";
+import Timer from "./components/timer/timer";
+import UseGeolocation from "./components/useGeolocation/useGeolocation";
 
 function App() {
   return (

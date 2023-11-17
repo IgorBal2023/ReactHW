@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./Fetch.css";
+import "./fetch.css";
 
 function Products() {
   const [products, setProducts] = useState(null);
