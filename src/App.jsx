@@ -10,8 +10,8 @@ function App() {
   };
   return (
     <>
-      <Input defaultValue={userInput} onChange={userComponent} />
       <Input2 />
+      <Input defaultValue={userInput} onChange={userComponent} />
     </>
   );
 }

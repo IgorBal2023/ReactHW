@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import "./input.css";
 
 const Input2 = () => {
@@ -12,10 +12,10 @@ const Input2 = () => {
     <form action="">
       <input
         type="text"
-        placeholder="Enter your text two..."
+        placeholder="Not memo..."
         value={userInput2}
         onChange={userChange}
-        className="userInput2"
+        className="userInput"
       />
     </form>
   );

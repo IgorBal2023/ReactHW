@@ -7,7 +7,7 @@ function Input({ defaultValue, onChange }) {
     return (
       <input
         type="text"
-        placeholder="Enter your text..."
+        placeholder="Use useMemo..."
         value={defaultValue}
         onChange={onChange}
         className="userInput"
