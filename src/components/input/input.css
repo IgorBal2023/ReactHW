@@ -1,0 +1,9 @@
+.userInput,
+.userInput2 {
+  display: block;
+  width: 300px;
+  font-size: 1.25rem;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
