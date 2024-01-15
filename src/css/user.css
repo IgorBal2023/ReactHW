@@ -1,0 +1,39 @@
+.wrapper {
+  width: 90vw;
+}
+.header {
+  display: flex;
+  align-items: start;
+  padding: 15px;
+}
+.buttonHome {
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+}
+.buttonHome:hover {
+  cursor: pointer;
+}
+.photo {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border: 1px solid rgb(152, 151, 151);
+}
+.image {
+  width: 100%;
+}
+.userCard {
+  display: flex;
+  gap: 50px;
+  padding: 50px 20px;
+}
+.userInfo {
+  min-width: 350px;
+  text-align: left;
+  padding: 10px 50px;
+}
+li {
+  list-style-type: none;
+  padding: 10px 0;
+}
